@@ -55,6 +55,7 @@ html {
     padding-right: 2rem;
   }
   
+  
   nav li:last-child {
     padding-right: 0;
   }
@@ -87,7 +88,7 @@ html {
     position: relative;
     height: 43.75rem;
     padding: 0 25%;
-    background: url("	https://content.codecademy.com/courses/freelance-1/unit-6/banner.png") center center no-repeat;
+    background: url("image/bannerbg.webp") center center no-repeat;
     background-size: cover;
     text-align: center;
   }
@@ -244,7 +245,7 @@ html {
   
   /* Red lightness decreases by 15 */
   .reds .lightness .color-1 {
-   background-color: hsl(350, 100%, 75%);
+   background-color: hsl(350, 100%, 80%);
   }
   
   .reds .lightness .color-2 {
@@ -299,39 +300,39 @@ html {
   }
   
   .reds .hue .color-4 {
-    background-color: hsl(5, 100%, 50%);
+    background-color: hsl(365, 100%, 50%);
   }
   
   .reds .hue .color-5 {
-    background-color: hsl(20, 100%, 50%);
+    background-color: hsl(380, 100%, 50%);
   }
   
   /* Green Swatches */
   
   .greens .base-color {
-    color: #00ff2a;
+    color: hsl(130, 100%, 50%);
   }
   
   /* Green lightness decreases by 20 */
   .greens .lightness .color-1 {
-    background-color: hsl(103, 100%, 90%);
+    background-color: hsl(130, 100%, 90%);
   
   }
   
   .greens .lightness .color-2 {
-    background-color: hsl(103, 100%, 70%);
+    background-color: hsl(130, 100%, 70%);
   }
   
   .greens .lightness .color-3 {
-    background-color: hsl(103, 100%, 50%);
+    background-color: hsl(130, 100%, 50%);
   }
   
   .greens .lightness .color-4 {
-    background-color: hsl(103, 100%, 30%);
+    background-color: hsl(130, 100%, 30%);
   }
   
   .greens .lightness .color-5 {
-    background-color: hsl(104, 100%, 10%);
+    background-color: hsl(130, 100%, 10%);
   }
   
   /* Green saturation decreases by 20 */
@@ -353,7 +354,7 @@ html {
   }
   
   .greens .saturation .color-5 {
-    background-color: hsl(131, 20%, 50%);
+    background-color: hsl(130, 20%, 50%);
   }
   
   /* Green hue increases by 22 */
@@ -381,7 +382,7 @@ html {
   /* Blue Swatches */
   
   .blues .base-color {
-    color: #0055ff;
+    color: hsl(220, 100%, 50%);
   }
   
   /* Blue lightness decreases by 20 */
@@ -430,24 +431,24 @@ html {
   
   /* Blue hue decreases by 20 */
   .blues .hue .color-1 {
-    background-color: hsl(260, 100%, 50%);
+    background-color: hsl(240, 100%, 50%);
   
   }
   
   .blues .hue .color-2 {
-    background-color: hsl(240, 100%, 50%);
-  }
-  
-  .blues .hue .color-3 {
     background-color: hsl(220, 100%, 50%);
   }
   
-  .blues .hue .color-4 {
+  .blues .hue .color-3 {
     background-color: hsl(200, 100%, 50%);
   }
   
-  .blues .hue .color-5 {
+  .blues .hue .color-4 {
     background-color: hsl(180, 100%, 50%);
+  }
+  
+  .blues .hue .color-5 {
+    background-color: hsl(160, 100%, 50%);
   }
   
   /* Footer */
@@ -456,7 +457,7 @@ html {
     position: relative;
     height: 30rem;
     padding: 7.8125rem 30% 0 30%;
-    background: url("https://content.codecademy.com/courses/freelance-1/unit-6/footer.png") center center no-repeat;
+    background: url("image/footer.webp") center center no-repeat;
     background-size: cover;
     text-align: center;
     font-size: 1.125rem;
